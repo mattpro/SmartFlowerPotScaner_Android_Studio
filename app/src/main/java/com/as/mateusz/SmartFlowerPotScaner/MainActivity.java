@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
         mBluetoothLeScanner.startScan(filters, settings, mScanCallback);
     }
-
+ 
     private void stopScan() {
         mBluetoothLeScanner.stopScan(mScanCallback);
     }
